@@ -3,7 +3,7 @@
   <head>
     <style>
       body {
-        background-image: url("hifi.jpg");
+        background-image: url("https://wallpapercave.com/wp/wp4075975.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 250%;
@@ -22,11 +22,22 @@
         color: rgb(255, 255, 255);
       }
 
-      #jk {
-        text-align: center;
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px; 
+        width: 20%;
+      }
+      
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+      .waasup{
+        border: 20px;
+        padding: 35px;
       }
 
-      #kj {
+      .wd{
         text-align: center;
       }
     </style>
@@ -42,6 +53,7 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/547/547743.png">
     <title>Energy Innovators</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
@@ -61,13 +73,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sustainability, transportation, and technology.</a>
+                  <a class="nav-link" href="http://127.0.0.1:3000/index.html#">Sustainability, transportation, and technology.</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Interactive maps.</a>
                 </li>
                 <li class="nav-item"></li>
-                  <a class="nav-link" href="file:///C:/Users/likith%20sai%20raj/Desktop/HTML/index.html#list-item-1">Home</a>
+                  <a class="nav-link" href="file:///C:/Users/likith%20sai%20raj/Desktop/HTML/html%20comp/index.html">Home</a>
                 </li>
               </ul>
             </div>
@@ -93,11 +105,21 @@
           <nav class="nav nav-pills flex-column">
             <a class="nav-link ms-3 my-1" href="#item-2-1">Renewable Energy Integration</a>
             <a class="nav-link ms-3 my-1" href="#item-2-2">Smart Grid Technology</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Green Building Standards</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Waste Management Optimization</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Urban Agriculture</a>
           </nav>
-          <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Transportation Solutions</a>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link ms-3 my-1" href="#item-2-1">Public Transit Modernization</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Bike-Sharing and Pedestrian Infrastructure</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Autonomous Vehicle Integration</a>
+            <a class="nav-link ms-3 my-1" href="#item-2-2">Mobility-as-a-Service (MaaS)</a>
+          </nav>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Conclusion</a>
         </div>
       </div>
+      
       <div class="col-8">
         <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
           <h4 id="list-item-1">Introduction</h4>
@@ -111,12 +133,127 @@
             <h5>Smart Grid Technology:</h5>
             <p> Deploy advanced metering infrastructure (AMI) to optimize energy consumption, reduce peak demand, and enable real-time monitoring and control of the energy grid.</p>
           </div>
-          <h4 id="list-item-3">Item 3</h4>
-          <p>...</p>
-          <h4 id="list-item-4">Item 4</h4>
-          <p>...</p>
+          <div id="item-2-2">
+            <h5>Green Building Standards:</h5>
+            <p>Enforce stringent green building codes for new construction and retrofitting existing buildings, incorporating energy-efficient materials, renewable energy systems, and water conservation measures.
+            </p>
+          </div>
+          <div id="item-2-2">
+            <h5>Waste Management Optimization:</h5>
+            <p>Implement intelligent waste management systems using sensors to monitor waste levels, optimize collection routes, and promote recycling and waste reduction.
+            </p>
+          </div>
+          <div id="item-2-2"></div>
+            <h5>Urban Agriculture:</h5>
+            <p>Foster urban farming initiatives, including community gardens, rooftop farms, and vertical farming, to increase food security, reduce food miles, and enhance biodiversity.
+              <h4 id="list-item-2">Transportation Solutions</h4>
+              <div id="item-2-1"><br>
+                <h5>Public Transit Modernization:</h5>
+                <p>Upgrade the public transportation system with electric buses, intelligent traffic management systems, and real-time passenger information systems to improve efficiency, reduce emissions, and encourage public transit usage.
+                </p>
+              </div>
+              <div id="item-2-2">
+                <h5>Bike-Sharing and Pedestrian Infrastructure:</h5>
+                <p>Expand bike-sharing programs and create safe, accessible pedestrian and cycling paths to promote active transportation and reduce reliance on private vehicles.
+                </p>
+              </div>
+              <div id="item-2-2">
+                <h5>Autonomous Vehicle Integration:</h5>
+                <p>Conduct pilot programs for autonomous vehicles in designated areas, focusing on safety, efficiency, and integration with existing transportation infrastructure.
+                </p>
+              </div>
+              <div id="item-2-2">
+                <h5>Mobility-as-a-Service (MaaS):</h5>
+                <p>Develop a comprehensive MaaS platform that integrates various transportation modes, including public transit, ride-sharing, bike-sharing, and car-sharing, to provide seamless and convenient mobility options.
+
+                </p>
+              </div>
+          </div>
+          <h4 id="list-item-1">Conclusion</h4>
+          <p>By embracing sustainability, transportation innovation, and advanced technology, cities can create a more livable, equitable, and resilient future. This proposal outlines a comprehensive framework for transforming a city into a smart, sustainable metropolis, utilizing interactive maps to visualize and implement these initiatives. By working together, cities can harness the power of technology to build a better world for future generations.</p>
+        </div><br>
+        <div id="wd" width="1000px" class="row">
+          <div id="waasup" class="col-md-6">
+            <div class="card" id="a2" style="width: 50%; margin: 0 auto;">
+              <img src="https://lhc.net/wp-content/uploads/2022/03/Sustainability-Wheel-Diagram-02.png" alt="Avatar" >
+              <div class="container">
+                  <h4><b>Sustainability</b></h4>
+                  <p>In the broadest sense, sustainability refers to the ability to maintain or support a process continuously over time. In business and policy contexts, sustainability seeks to prevent the depletion of natural or physical resources, so that they will remain available for the long term.</p>
+                  <button class="btn btn-lg btn-success" style="color: rgb(252, 252, 252);" onclick="window.location.href='your-link-here';">Click more to learn about Sustainability</button><br>
+              </div>
+            </div>
+          </div>
+          <div id="waasu" class="col-md-6">
+            <div class="card" id="a2" style="width: 50%; margin: 0 auto;">
+              <img src="https://tse4.mm.bing.net/th?id=OIP.0mG0FfzoJasCGK8q5LMAJgHaHa&pid=Api&P=0&h=180" alt="Avatar" >
+              <div class="container">
+                  <h4><b>Interactive Maps</b></h4>
+                  <p>In interactive mapping, the map permits user interactivity, or, simply put, individuals can manipulate it. An interactive map (at times called online or web mapping) will enable viewers to zoom in and out, pan around and click on integrated links.</p>
+                  <button class="btn btn-lg btn-success" style="color: rgb(252, 252, 252);" onclick="window.location.href='your-link-here';">Click more to learn about Interactive maps</button><br>
+              </div>
+            </div>
+          </div>
         </div>
+          
+        </div>
+        <br>
       </div>
     </div>
+<br><br>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>BY: Likith Sai Raj Sangalapalli
+              </h6>
+              <p>
+                Thank you for taking the time to explore my website! I appreciate your interest and hope you found the information helpful and engaging. If you have any questions or feedback, feel free to reach out!
+
+Warm regards, Likith
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">---Contact---</h6>
+                <i class="fas fa-envelope me-3"></i>
+                likithdaboss09@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 260 974 130 890</p>
+              <p><i class="fas fa-phone me-3"></i>@likith_sr (Tiktok)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap</a>
+      </div>
+    </footer>
   </body>
 </html>
